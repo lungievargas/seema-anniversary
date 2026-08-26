@@ -1,1 +1,19 @@
-{"version":2,"builds":[{"src":"index.html","use":"@vercel/static"}],"routes":[{"src":"/(.*)","dest":"/index.html"}]}
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/seema32-program.png",
+      "dest": "/seema32-program.png"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
